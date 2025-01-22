@@ -1,6 +1,6 @@
 import { Project } from "../types/types.ts";
 
-export const projectsData:Project[] = [
+export const projectsData: Project[] = [
   {
     id: 1,
     title: "Virtual Clock",
@@ -8,7 +8,8 @@ export const projectsData:Project[] = [
       "Time control web app to keep track of activities and personal assistence",
     type: "software",
     skills: ["React", "Typescript", "NodeJS"],
-    image: "/imgs/projects/software/time-control-screen-2.png",
+    image: "./imgs/projects/software/time-control-screen-2.png",
+    link: "https://manueter.github.io/time-control-app",
   },
 
   {
@@ -18,7 +19,8 @@ export const projectsData:Project[] = [
       "Built 2 pedals audio effects: Distortion and Tremolo to use with musical instruments",
     type: "hardware",
     skills: ["Circuits", "Analogic", "Soldering"],
-    image: "/imgs/projects/hardware/guitar-pedals.png",
+    image: "./imgs/projects/hardware/guitar-pedals.png",
+    link: "",
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ export const projectsData:Project[] = [
       "Created a white noise sequencer inside a cassette enclosure, using transistor logic.",
     type: "hardware",
     skills: ["Analogic", "Transistors", "Soldering"],
-    image: "/imgs/projects/hardware/white-noise-screen.jpg",
+    image: "./imgs/projects/hardware/white-noise-screen.jpg",
+    link: "",
   },
   {
     id: 4,
@@ -35,6 +38,7 @@ export const projectsData:Project[] = [
     description: "Power supply with a range of 3v to 21v and 3watts",
     type: "hardware",
     skills: ["Circuits", "Analogic", "Soldering"],
-    image: "/imgs/projects/hardware/power-supply.jpeg",
+    image: "./imgs/projects/hardware/power-supply.jpeg",
+    link: "",
   },
 ];

@@ -59,7 +59,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300"
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-200 transition-colors duration-300"
             >
               Go to project
             </a>

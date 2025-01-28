@@ -47,7 +47,7 @@ export const projectsData: Project[] = [
     description: "A Python-based desktop application for combining text files.",
     type: "software",
     skills: ["Python"],
-    image: "./imgs/projects/software/filecombiner_screen.png",
+    image: "./imgs/projects/software/fileCombiner_screen.png",
     link: "https://github.com/manueter/filecombiner-py-app/releases",
   },
 ];

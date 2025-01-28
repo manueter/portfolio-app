@@ -11,7 +11,7 @@ import { aboutData } from "../data/personal";
               src={aboutData.image}
               alt="Profile"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = "/imgs/img-not-found.jpg";
+                (e.target as HTMLImageElement).src = "./imgs/img-not-found.jpg";
               }}
             />
           </div>

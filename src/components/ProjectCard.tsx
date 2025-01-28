@@ -13,7 +13,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onReadMore }) => {
         src={project.image}
         alt={project.title}
         onError={(e) => {
-          (e.target as HTMLImageElement).src = "/imgs/img-not-found.jpg";
+          (e.target as HTMLImageElement).src = "./imgs/img-not-found.jpg";
         }}
       />
       <div className="p-6">

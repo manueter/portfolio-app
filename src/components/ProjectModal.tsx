@@ -35,7 +35,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
           alt={project.title}
           className="w-full max-h-96 rounded-lg  object-cover overflow-clip"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = "/imgs/img-not-found.jpg";
+            (e.target as HTMLImageElement).src = "./imgs/img-not-found.jpg";
           }}
         />
 

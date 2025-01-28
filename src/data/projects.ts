@@ -41,4 +41,13 @@ export const projectsData: Project[] = [
     image: "./imgs/projects/hardware/power-supply.jpeg",
     link: "",
   },
+    {
+    id: 5,
+    title: "File Combiner App",
+    description: "A Python-based desktop application for combining text files.",
+    type: "software",
+    skills: ["Python"],
+    image: "./imgs/projects/software/filecombiner_screen.png",
+    link: "https://github.com/manueter/filecombiner-py-app/releases",
+  },
 ];

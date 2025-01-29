@@ -5,7 +5,7 @@ export const projectsData: Project[] = [
     id: 1,
     title: "Virtual Clock",
     description:
-      "Time control web app to keep track of activities and personal assistence",
+      "Time control web app for keeping track of activities and for personal assistance",
     type: "software",
     skills: ["React", "Typescript", "NodeJS"],
     image: "./imgs/projects/software/time-control-screen-2.png",
@@ -14,9 +14,9 @@ export const projectsData: Project[] = [
 
   {
     id: 2,
-    title: "Pedal Audio Effects",
+    title: "Audio Effects Pedals",
     description:
-      "Built 2 pedals audio effects: Distortion and Tremolo to use with musical instruments",
+      "Built 2 audio effects pedals: Distortion and Tremolo to use with musical instruments",
     type: "hardware",
     skills: ["Circuits", "Analogic", "Soldering"],
     image: "./imgs/projects/hardware/guitar-pedals.png",
